@@ -1,10 +1,3 @@
-cd ${DOT_DIRECTORY}
-
-for f in .??*
-do
-  # 無視したいファイルやディレクトリはこんな風に追加してね
-  [[ ${f} = ".git" ]] && continue
-  [[ ${f} = ".gitignore" ]] && continue
-  ln -snfv ${DOT_DIRECTORY}/${f} ${HOME}/${f}
-done
-echo $(tput setaf 2)Deploy dotfiles complete!. ✔︎$(tput sgr0)
+ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.profile ~/.profile
+ln -s ~/dotfiles/.bashrc ~/.bashrc
