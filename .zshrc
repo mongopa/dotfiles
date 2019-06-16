@@ -44,3 +44,30 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+# aliases
+alias ls='ls --color=auto'
+alias ll='ls -alF --color=auto'
+alias la='ls -A --color=auto'
+alias l='ls -CF --color=auto'
+
+alias c='code '
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias dt="cd ~/Desktop"
+alias dl="cd ~/Downloads"
+alias dot='cd ~/dotfiles'
+alias hm='cd ~/'
+alias g="git"
+
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
